@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    background-color: rgb(95, 95, 179);
+}
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.heading{
+    margin-left: 30px;
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+.input{
+    display: block;
+    width: 28em;
+    border-color: rgb(95, 95, 179);
+    height: 30px;
+    margin-bottom: 1.5em;
+    padding: 5px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 500;
+}
+.submitBtn{
+    margin-left: 11em;
+    padding: 13px;
+    background-color: rgb(95, 95, 179);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.heading2{
+    margin-left: 82px;
+    margin-top: 18px;
+}
+
+.output{
+    margin-top: 5px;
+    color: rgb(149, 149, 27);
+    text-align: center;
+}
